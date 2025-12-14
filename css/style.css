@@ -15,3 +15,12 @@
 input {
 	width: 80px !important;
 }
+
+
+li {
+	list-style: none;
+}
+
+.none{
+	display: none;
+}

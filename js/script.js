@@ -8,8 +8,8 @@ let timeNumbers;
 // CHIAMATA FUNZIONI
 numShow.innerHTML = `<li>${getRandomInArray(1, 50, 5)}</li>`
 timeNumbers = setTimeout( () => {
-  numShow.classList.add("bye");
-  formShow.classList.remove("bye");
+  numShow.classList.add("none");
+  formShow.classList.remove("none");
 }
 , 5000);
 
